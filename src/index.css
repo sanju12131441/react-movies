@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: black;
+  background-size: cover;
+  background-image:url('https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/hero-background.jpg');
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+li{
+  display: inline-block;
+  list-style-type: none;
+}
+
+.outer-div{
+  width: 100%;
+  height: 75px;
+  padding: 0 4%;
+  display:flex;
+  align-items:center;
+  justify-content: flex-start;
+}
+
+.logo{
+  width: 100px;
+  display: inline-block;
+}
+
+nav {
+  margin-left: 35px;
+}
+
+a{
+  font-size: 12px;
+  display:inline-block;
+  list-style:none;
+  padding: 0 10px;
+  cursor: pointer;
+  color:#868e96;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#868e96;
+}
+
+.footer{
+  background: black;
+  min-height: 15rem;
+}
+
+.footer-links-div{
+  padding-top: 50px;
+}
+
+nav{
+  position: absolute;
+  right: 20px;
+  top : 25px;
+}
+
+.route-wrapper{
+  min-height: 310px;
+  border-bottom: 8px solid #222222;
+}
+
+.white-text{
+  color: white;
+}
+
+.questions{
+  font-size: 16px;
+  position: relative;
+  right: 345px;
+}
+
+.advertisment-div{
+  background: black;
+  border-bottom: 8px solid #222222;
+}
+
+.advertismentText {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.img-banner{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-height: 320px;
+}
+
+.company-name{
+  color: #a6a6a6;
+  font-size: 13px;
+  margin-top: 24px;
+  position: relative;
+  right: 395px;
+}
+
+.movie-banner-wrapper{
+  height: 150px;
+}
+
+.movie-container .movie-sections {
+  margin-left: 4%;
+}
+
+.movie-container .movie-sections .section {
+  position: relative;
+  -webkit-user-select: none;
+ /* Safari */
+  -moz-user-select: none;
+ /* Firefox */
+  -ms-user-select: none;
+ /* IE10+/Edge */
+  user-select: none;
+ /* Standard */
+}
+
+.movie-container .movie-sections .sections {
+  margin: 25px 0 40px;
+}
+
+.movie-container .movie-sections .sections .title {
+  color: #e5e5e5;
+  font-size: 1.07em;
+  margin-bottom: 10px;
+}
+
+.movie-container .movie-sections .sections .grid .grid-item:hover .grid-overlay, .movie-container .movie-sections .sections .grid .grid-item:hover .movie-details {
+  opacity: 1;
+}
+
+.movie-container .movie-sections .sections .grid .grid-item .transform-me {
+  image-rendering: optimizeQuality;
+  transition: -webkit-transform 0.6s ease-out;
+  -webkit-transition: -webkit-transform 0.6s ease-out;
+  -o-transition: transform 0.6s ease-out;
+  transition: transform 0.6s ease-out;
+  transition: transform 0.6s ease-out, -webkit-transform 0.6s ease-out;
+  -o-object-fit: cover;
+  width: 100%;
+}
+
+.movie-container .movie-sections .sections .grid .grid-item .transform-me img {
+  image-rendering: optimizeQuality;
+  transition: -webkit-transform 0.6s ease-out;
+  -webkit-transition: -webkit-transform 0.6s ease-out;
+  -o-transition: transform 0.6s ease-out;
+  transition: transform 0.6s ease-out;
+  transition: transform 0.6s ease-out, -webkit-transform 0.6s ease-out;
+  -o-object-fit: cover;
+  width: 100%;
+}
+
+.panel-title {
+  font-size: 24px;
+  color: white;
+}
+
+.grid-title{
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.detailsImage{
+  height: 300px;
+  width: 200px;
+}
+
+.movie-title{
+  color: red;
+}
+
+.backButton{
+  margin-bottom: 20px;
+}
+
+.movie-poster:hover{
+  border: 1px solid gray;
+filter: brightness(150%);
+}
+
+.movieInfo{
+  text-align: left;
+}
